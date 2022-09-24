@@ -9,7 +9,7 @@
  * [Acknowledgment](#acknowledgment)
 
 # Overview of the Project
-The goal of the project is to create a unit conversion app to convert values like meter to feet, volume to gallon and kilos to pound. Its is a solo project in which I have coded everything from scratch which helped me improve my skills.
+The goal of the project is to create a unit conversion app to convert values like meter to feet, volume to gallon and kilos to pound.
 
 ### Goal of the Project
 * The Goal of this project is to convert certain unit values like meter to feet, volume to gallon and kilos to pound.
