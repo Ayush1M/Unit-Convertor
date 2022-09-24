@@ -6,6 +6,7 @@
       * [Goal of the project](#goal-of-the-project)
       * [Screenshot](#screenshot)
  * [Technologies I Used](#technologies-i-used)
+ * [Acknowledgment](#acknowledgment)
 
 # Overview of the Project
 The goal of the project is to create a unit conversion app to convert values like meter to feet, volume to gallon and kilos to pound. Its is a solo project in which I have coded everything from scratch which helped me improve my skills.
@@ -24,3 +25,6 @@ The goal of the project is to create a unit conversion app to convert values lik
 * Semantic HTML5
 * CSS
 * Javascript
+
+## Acknowledgment
+This is a solution to a solo project on Scrimba. Solo Project helps you code everything from scratch which helps to improve coding skills.
