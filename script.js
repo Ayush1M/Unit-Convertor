@@ -6,7 +6,7 @@ const kGp = document.getElementById("kgp")
 
 document.getElementById("convert-btn").addEventListener("click", () =>{
 
-  let number = parseInt(inputNumber.value)
+  const number = parseInt(inputNumber.value)
 
   const meter = number*3.28084
   const feet = number/3.28084
@@ -15,7 +15,7 @@ document.getElementById("convert-btn").addEventListener("click", () =>{
   const kilo = number*2.20462
   const pound = number/2.20462
 
-  mFt.innerHTML = `${number} meters = ${meter.toFixed(3)} feet | ${number} feet = ${feet.toFixed(3)} meters`
-  lGa.innerHTML = `${number} liters = ${liter.toFixed(3)} gallons | ${number} gallons = ${gallon.toFixed(3)} liters`
-  kGp.innerHTML = `${number} kilos = ${kilo.toFixed(3)} pound | ${number} pounds = ${pound.toFixed(3)} kilos`
+  mFt.textContent = `${number} meters = ${meter.toFixed(3)} feet | ${number} feet = ${feet.toFixed(3)} meters`
+  lGa.textContent = `${number} liters = ${liter.toFixed(3)} gallons | ${number} gallons = ${gallon.toFixed(3)} liters`
+  kGp.textContent = `${number} kilos = ${kilo.toFixed(3)} pound | ${number} pounds = ${pound.toFixed(3)} kilos`
 })
